@@ -14,7 +14,7 @@ class intSet(object):
   def insert(self, e):
     """ Assumes e is an integer and inserts e into self """
     if not e in self.vals:
-        self.vals.append(e)
+      self.vals.append(e)
 
   def member(self, e):
     """ Assumes e is an integer
